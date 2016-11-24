@@ -1,0 +1,41 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.skylable.sxdrive2.Activities.ActivityMain"
+        android:id="@+id/mainActivity"
+        >
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_toolbar"
+            />
+
+        <RelativeLayout
+            android:layout_below="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/working_area"
+            android:background="#000"
+            />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/navigation_drawer"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        app:layout="@layout/fragment_navigation_drawer"
+        android:layout_gravity="start"
+
+        android:name="com.skylable.sx.sxdrive2.NavigationDrawer"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+
+</android.support.v4.widget.DrawerLayout>

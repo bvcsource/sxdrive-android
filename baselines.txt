@@ -1,0 +1,12 @@
+ic_launcher: 48
+ic_logo: 48
+ic_logo_with_back: 48
+ic_file: 48
+ic_folder: 48
+ic_star: 48
+ic_accounts: 32
+ic_fileadd: 32
+ic_info: 32
+ic_sync: 32
+ic_useradd: 32
+ic_userdel: 32

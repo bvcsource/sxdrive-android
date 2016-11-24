@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SXDrive</string>
+    <string name="authority" translatable="false">com.skylable.sx.provider</string>
+    <string name="authority_files" translatable="false">com.skylable.sx.fileprovider</string>
+    <string name="account_type" translatable="false">sx.account</string>
+    <string name="empty" translatable="false" />
+    <string name="skylable_web" translatable="false">http://www.skylable.com/</string>
+    <string name="skylable_email" translatable="false">hello@skylable.com</string>
+    <string name="hardcoded_cluster" translatable="false"/>
+    <string name="hardcoded_domain" translatable="false"/>
+    <bool   name="show_powered_by">false</bool>
+
+    <string name="about_title">About</string>
+    <string name="version_text">version %1$s</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="powered_by">Powered by <a href="http://www.skylable.com">Skylable</a></string>
+
+    <string name="no_files">No files</string>
+    <string name="no_accounts">No accounts defined yet</string>
+    <string name="select_volume">Select volume</string>
+    <string name="no_data_connection">No data connection available</string>
+    <string name="sync_info">Schedules automatic synchronization of offline files</string>
+
+    <string name="action_add_file">Add file</string>
+    <string name="action_add_account">Add account</string>
+    <string name="action_open_with">Open with&#8230;</string>
+    <string name="action_starred">Available offline</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_open">Open</string>
+    <string name="action_close">Close</string>
+    <string name="action_create">Create</string>
+    <string name="action_save">Save</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_add">Add</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_upload">Upload</string>
+    <string name="action_export">Export</string>
+    <string name="action_newdir">New dir</string>
+
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="are_you_sure_delete_account">Are you sure to delete the account?</string>
+    <string name="ask_delete_file">Are you sure to delete the file %1$s?</string>
+    <string name="ask_delete_directory">Are you sure to delete the directory %1$s?</string>
+
+    <string name="content_provider_denied">Content provider denied the content</string>
+    <string name="not_a_file">Not a file</string>
+
+    <string name="uploading">Uploading&#8230;</string>
+    <string name="upload_enqueued">File(s) added to the upload queue</string>
+    <string name="file_upladed">%1$s uploaded</string>
+    <string name="file_downloaded">%1$s downloaded</string>
+    <string name="file_exported">%1$s exported</string>
+
+    <string name="downloading">Downloading&#8230;</string>
+    <string name="file_uplad_failed">%1$s upload failed</string>
+    <string name="file_download_failed">%1$s download failed</string>
+    <string name="file_export_failed">%1$s export failed</string>
+
+    <string name="no_storage">You need an SD Card on this device</string>
+    <string name="noApplications">No application can perform this action</string>
+    <string name="press_again_back">Press back again to exit the application</string>
+    <string name="client_init_failed">Failed to initialize the internal client library</string>
+    <string name="enter_password">Enter the volume password</string>
+    <string name="re_enter_password">Re-enter the volume password</string>
+    <string name="password_do_not_match">The passwords do not match</string>
+    <string name="password_invalid">Invalid password</string>
+    <string name="mkdir_failed">Unable to create the directory %1$s</string>
+    <string name="enter_directoryname">Enter the directory name</string>
+    <string name="enter_new_directoryname">Enter a new directory name</string>
+    <string name="enter_new_filename">Enter a new filename</string>
+    <string name="rename_failed">Rename failed</string>
+    <string name="on_security_exception">Failed to open the file with the default application. Use <b>Open with...</b> and choose another one.</string>
+    <string name="dirname_empty">The directory name cannot be empty</string>
+    <string name="filename_empty">The file name cannot be empty</string>
+    <string name="dirname_invalid">The directory name is invalid</string>
+    <string name="filename_invalid">The file name is invalid</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="directory_exists">The directory already exists</string>
+    <string name="processing">Processing &#8230;</string>
+    <string name="select_directory">Select a directory</string>
+    <string name="encrypted_volume">Encrypted volume</string>
+    <string name="volume_unlock">Enter a password to unlock the volume</string>
+    <string name="volume_new_password">Enter a new password for the encrypted volume</string>
+    <string name="volume_locked">The volume cannot be accessed because of an invalid filter configuration</string>
+
+    <string name="navigator_files">Files</string>
+    <string name="navigator_transfers">Transfers</string>
+    <string name="navigator_starred">Offline files</string>
+    <string name="navigator_settings">Settings</string>
+    <string name="navigator_about">About</string>
+
+    <string name="login_enterprise">Enterprise account</string>
+    <string name="login_desc">Select the account type</string>
+    <string name="login_normal">Normal account</string>
+    <string name="prompt_server">Server</string>
+    <string name="prompt_display">Device name</string>
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_uri">URI</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_ssl">SSL</string>
+    <string name="prompt_ipaddress">IP Address</string>
+    <string name="prompt_self_signed">The server certificate is not trusted, would you like to continue anyway?</string>
+    <string name="error_incorrect_endpoint">The server format is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_hostname_verification">Hostname verification failed</string>
+    <string name="error_default_trustmanager">Unable to find a suitable TrustManager</string>
+    <string name="error_no_sxcluster">This is not an SX cluster</string>
+    <string name="error_no_sxauthd_running">The SX cluster authentication server is not running on the remote host</string>
+    <string name="error_account_already_exists">This account already exists</string>
+    <string name="error_adding_account">Error while adding the account</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_uri">Invalid URI</string>
+    <string name="error_invalid_ipaddress">Invalid IP Address</string>
+    <string name="error_invalid_port">Invalid Port</string>
+    <string name="error_password_to_short">Password cannot be shorter than 8 characters</string>
+    <string name="advanced">Advanced</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="login_progress_calculate_token">Calculating authorization key..\n(this may take a while)</string>
+    <string name="prompt_port">Port</string>
+    <string name="select_account">Select account</string>
+    <string name="queue_empty">Empty queue</string>
+    <string name="queue_current_task">Current task</string>
+    <string name="queue_pending">Pending</string>
+    <string name="settings_accounts">ACCOUNTS</string>
+    <string name="download_failed">Download failed</string>
+    <string name="task_finished">Task finished</string>
+    <string name="task_waiting">waiting in queue (%1$s)</string>
+    <string name="not_enough_space">Not enough free space available</string>
+    <string name="file_not_downloaded_yet">This file is not downloaded yet. Try again later.</string>
+    <string name="prompt_cluster">Cluster</string>
+    <string name="acction_remove_account">Remove account</string>
+    <string name="encrypt_filenames">Encrypt filenames</string>
+    <string name="volumelist_loading">Loading volume list</string>
+    <string name="volumelist_empty">Volume list is empty</string>
+    <string name="validating_account">Validating account</string>
+    <string name="invalid_link">Invalid config link</string>
+    <string name="action_share_link">Create public link</string>
+    <string name="expiration_time">Expiration time</string>
+    <string name="protect_with_password">Protect with password</string>
+    <string name="notify_me">Notify me</string>
+    <string name="expiration_one_day">One day</string>
+    <string name="expiration_one_week">One week</string>
+    <string name="expiration_one_month">One month</string>
+    <string name="expiration_one_year">One year</string>
+    <string name="expiration_infinite">Never expire</string>
+    <string name="enter_valid_email">Enter valid email address</string>
+    <string name="error_account_locked">Account was locked due to invalid credentials</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+
+</resources>

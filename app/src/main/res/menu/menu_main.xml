@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.skylable.sxdrive2.Activities.ActivityMain"
+    >
+
+    <item
+        android:id="@+id/action_accounts"
+        android:title="@string/empty"
+        android:icon="@drawable/manage_users"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+    <!--
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/empty"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        />
+    -->
+
+</menu>

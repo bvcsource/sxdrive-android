@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="accounts"
+        android:title="@string/settings_accounts">
+        <Preference
+            android:key="add_account"
+            android:title="@string/action_add_account"
+            >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

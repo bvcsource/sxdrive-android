@@ -1,0 +1,20 @@
+- Look at app/build.gradle:
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+  you need android sdk 22 and build tools v22.0.1
+- Download latest ndk
+- put this directory/repo inside sx root, you can call it SXDrive
+- cd in that directory and run ./bindgen.sh (you need swig)
+- download openssl-1.0.1m.tar.gz in 3rdparty subdirectory
+- unpack openssl-1.0.1m.tar.gz package then symlink openssl-1.0.1m to openssl
+- cd in the openssl directory and copy the content of SXDrive/import_openssl here
+- run: ./import_openssl.sh import ../openssl-1.0.1m.tar.gz
+- in SXDrive directory: edit local.properties adding sdk/ndk paths and jobs numbers
+- create a file named gradle.properties and put your keystore properties as follow
+RELEASE_STORE_FILE=/home/sherpya/skylable.keystore
+RELEASE_STORE_PASSWORD=skylable
+RELEASE_KEY_ALIAS=skylable
+RELEASE_KEY_PASSWORD=skylable
+- run ./convert_icons.py (you need rsvg-convert)
+- run ./gradlew assembleRelease
+- your signed apk is ./app/build/outputs/apk/app-release.apk

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="menu_openwith" type="id"/>
+    <item name="menu_export" type="id"/>
+    <item name="menu_starred" type="id"/>
+    <item name="menu_share" type="id"/>
+    <item name="menu_delete" type="id"/>
+    <item name="menu_rename" type="id"/>
+
+</resources>

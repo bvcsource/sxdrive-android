@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="preference_cluster"
+        android:title="@string/prompt_cluster"
+        />
+    <Preference
+        android:key="preference_username"
+        android:title="@string/prompt_username"
+        />
+    <Preference
+        android:key="action_remove"
+        android:title="@string/acction_remove_account"
+        />
+
+</PreferenceScreen>

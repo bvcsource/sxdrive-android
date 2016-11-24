@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/secondaryColor"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:id="@+id/login_progress"
+        >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo_account"
+                android:layout_gravity="center"
+                android:paddingTop="40dp"
+                android:paddingBottom="40dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_progress_calculate_token"
+                />
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cluster"
+            android:hint="@string/prompt_uri"
+            android:inputType="textVisiblePassword|textNoSuggestions"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword|textNoSuggestions"
+            android:hint="@string/prompt_username"
+            android:id="@+id/username"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="16dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textNoSuggestions|textPassword"
+            android:id="@+id/password"
+            android:hint="@string/prompt_password"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            />
+
+        <Button
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_add_account"
+            android:id="@+id/buttonAddAccount"
+            android:background="@drawable/rounded_button"
+            android:elevation="5dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:ellipsize="start"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:layout_gravity="center"
+
+            android:padding="8dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/advanced"
+            android:id="@+id/buttonAdvanced"
+
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/primaryColor"
+
+            android:layout_marginBottom="20dp"
+            android:ellipsize="start"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+
+
+</RelativeLayout>
